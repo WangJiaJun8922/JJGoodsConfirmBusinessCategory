@@ -16,7 +16,7 @@
     params[@"goodsId"] = goodsId;
     params[@"goodsName"] = goodsName;
     params[@"completeBlock"] = confirmComplete;
-    return [self performTarget:@"JJGoodsConfirm" action:@"JJGoodsConfirmViewController" params:params shouldCacheTarget:NO];
+    return [self performTarget:@"JJGoodsConfirm" action:@"ConfirmOrderViewController" params:params shouldCacheTarget:NO];
 }
 
 @end
